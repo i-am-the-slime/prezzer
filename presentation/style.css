@@ -1,0 +1,58 @@
+html, body {
+  background-color: #F8F8F9;
+  color: #070700;
+}
+#root {
+  font-family: "Iosevka Web", monospace;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  padding-left: 8em;
+  padding-right: 8em;
+}
+
+#leftChild {
+}
+
+#rightChild {
+  padding-left: 3em;
+  padding-right: 3em;
+  width: 50%;
+}
+
+.ace_editor {
+  min-height: 700px;
+  width: 50vw;
+  position: relative;
+  font-family:'Iosevka Web','Menlo','Ubuntu Mono','Consolas','source-code-pro',monospace !important;
+  font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+  font-weight: 200;
+  border-radius: 8px;
+}
+
+textarea#output {
+  box-sizing: border-box;
+  font-family: 'Iosevka Web';
+  font-size: 1.2em;
+  width: 100%;
+  height: 100%;
+  background-color: #282a36;
+  color: #DFFFDD;
+  font-weight: 200;
+  border-radius: 8px;
+  padding: 28px;
+}
+
+textarea#output::selection {
+  background: #cf6cc7; /* WebKit/Blink Browsers */
+}
